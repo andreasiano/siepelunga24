@@ -1,0 +1,55 @@
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--slate-700) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--slate-800) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):focus,
+header.theme-dark .container-btn a.btn:nth-child(1):hover,
+header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--slate-800) }
+body {
+    font-family: 'Playfair Display', cursive;
+}
+.container-text h1 {
+    font-size: calc(30px + (90 - 30) * ((100vw - 320px)/ (1600 - 320)));
+    text-transform: uppercase;
+}
+.container-text h2 {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px)/ (1600 - 320)));
+}
+.container-btn .btn {
+    font-size: calc(15px + (20 - 15) * ((100vw - 320px)/ (1600 - 320)));
+    font-family: 'Playfair Display', cursive;
+}
+.section-selector-1 .container-btn a.btn:nth-child(1):hover,
+.section-selector-1 .container-btn a.btn:nth-child(1):active {
+    background-color: var(--brown-400);
+}
+.section-selector-1 .container-btn a.btn:nth-child(1):hover,
+.section-selector-1 .container-btn a.btn:nth-child(1):active {
+    border: var(--slate-800);
+}
+.section-selector-1  {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li::marker, .section-selector-1 div[class^='flex-cols-'] div[class^='col-'] ul.fa-ul li span.fa-li i { color: var(--white-000) }
+.section-selector-1 { background-color: var(--slate-900) }
+.section-selector-1 .col-1 h2 { color: var(--slate-200) }
+
+.section-selector-1 h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+}
+.section-selector-2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.section-selector-3 { background-color: var(--slate-900) }
+.section-selector-3 .fig-corners-soft {
+    filter: grayscale(10);
+}
