@@ -53,3 +53,6 @@ body {
 .section-selector-3 .fig-corners-soft {
     filter: grayscale(10);
 }
+.contatti-heading {
+    font-size: calc(20px + (30 - 20) * ((100vw - 320px)/ (1600 - 320)));
+}
